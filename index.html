@@ -16,20 +16,20 @@
         <h1>Epicodus Course Track Suggester</h1>
       </div>
       <div class="section">
-        <h4>Please answer all 5 questions.</h4>
+        <h4>Please answer following questions (Required: <span class="required">*</span>):</h4>
       </div>
 
       <!-- Beginning of Form -->
       <form id="survey">
         <!-- Question 1: Full Name-->
         <div class="section">
-          <label for="name">Full Name: </label>
+          <label for="name"><span class="required">*</span> Full Name: </label>
           <input id="name" type="text">
         </div>
 
         <!-- Question 2: Programming Experience -->
         <div class="section">
-          <label for="experience">Do you have any programming experience?:</label>
+          <label for="experience"><span class="required">*</span> Do you have any programming experience?:</label>
           <div class="section">
             <select id="experience">
               <option value="none">None</option>
@@ -42,7 +42,7 @@
 
         <!-- Question 3: Interest -->
         <div class="section">
-          <label for="interest">Are you interested in any of these classes offered at Epicodus?: </label>
+          <label for="interest"><span class="required">*</span> Are you interested in any of these classes offered at Epicodus?: </label>
           <div class="section">
             <ul>
               <li>Ruby/Rails</li>
@@ -66,7 +66,7 @@
 
         <!-- Question 4: Programming Language Matching -->
         <div class="section">
-          <label for="language">Which one describes what you want to be doing in the future?: </label>
+          <label for="language"><span class="required">*</span> Which one describes what you want to be doing in the future?: </label>
           <div class="radio">
             <label>
               <input type="radio" name="language" value="Ruby/Rails" checked>
