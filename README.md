@@ -24,7 +24,7 @@
 * Open index.html with a web browser
 * Run the program by clicking the submit button on index.html page
 
-### Link: [Click here](https://jiwonk42.github.io/track-suggester)
+### Link: [Click here](https://jiwonk42.github.io/track-suggester/)
 
 #### Copyright (c) 2017 Gee (Jiwon) Kang.
 #### This software is licensed under the MIT license.
