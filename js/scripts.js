@@ -12,6 +12,7 @@ var result = function(language) {
 
 $(document).ready(function() {
   $("form#survey").submit(function(event) {
+    
     $("#result").hide();
 
     var name = $("input#name").val();
@@ -25,8 +26,8 @@ $(document).ready(function() {
       $("#experience-result").text(experience);
       $("#interest-result").text(interest);
       $("#language-result").text(language);
+      $("#whichLanguage").text(whichLanguage)
       $("#result").show();
-
 
     } else {
       alert("Please enter your name.");
