@@ -16,3 +16,28 @@ body {
   color: red;
   font-size: 25px;
 }
+
+button {
+  background-color: #3b99fc;
+  color: black;
+  box-shadow: 1px 1px #888888;
+}
+
+#result {
+  margin-top: 40px;
+  padding: 30px;
+  background-color: #ddf6ff;
+}
+
+#result p {
+  padding: 10px 0px;
+}
+
+.result {
+  font-size: 20px;
+  font-style: italic;
+}
+
+h2 {
+  padding-bottom: 15px;
+}

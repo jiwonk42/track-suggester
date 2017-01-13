@@ -97,17 +97,18 @@
 
         <!-- Submit Button -->
         <div class="section">
-          <button type="submit" name="button">Submit</button>
+          <button type="submit" name="button" class="btn btn-lg btn-outline-primary">Submit</button>
         </div>
       </form> <!-- End of Form -->
 
       <!-- Survey Result -->
-      <div id="result" class="section">
-        <p>Hi, <span id="name-result"></span>!</p>
-        <p>Thank you for submitting Epicodus survey questionaire.</p>
-        <p>Based on your answers (regardless of your programming experience, which is <span id="experience-result"></span>, and interest, which you said "<span id="interest-result"></span>", in programming languages offered at Epicodus) you would be interested in learning: <span id="language-result"></span>.</p>
-        <p id="whichLanguage"></p>
-        <p>If you do not have any suggestions for Epicodus, that is okay! But if you have entered in the comment box, we will take it seriously. Thank you for your feedback!</p>
+      <div id="result">
+        <h2>Thank you for submitting our survey!</h2>
+        <p>Hi, <span id="name-result" class="result"></span>!</p>
+        <p>Based on your answers (regardless of your programming experience, which is <span id="experience-result" class="result"></span>, and interest, which you said "<span id="interest-result" class="result"></span>", in programming languages offered at Epicodus) you would be interested in learning: <span id="language-result" class="result"></span>.</p>
+        <p id="whichLanguage" class="result"></p>
+        <p>If you do not have any suggestions for Epicodus, that is okay! But if you have entered in the comment box, we will take it seriously.</p>
+        <p>Thank you for your feedback!</p>
       </div>
     </div>
   </body>

@@ -11,7 +11,7 @@ var result = function(language) {
 }
 
 $(document).ready(function() {
-  $("#result").hide();
+  //$("#result").hide();
   $("form#survey").submit(function(event) {
 
     var name = $("input#name").val();
@@ -25,7 +25,8 @@ $(document).ready(function() {
       $("#experience-result").text(experience);
       $("#interest-result").text(interest);
       $("#language-result").text(language);
-      $("#whichLanguage").text(whichLanguage)
+      $("#whichLanguage").text(whichLanguage);
+      alert("Your answers have been submitted.");
       $("#result").show();
 
     } else {
