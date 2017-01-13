@@ -1,3 +1,4 @@
+// Back-end of Survey
 var result = function(language) {
   var information;
   if(language === "Ruby/Rails") {
@@ -12,6 +13,7 @@ var result = function(language) {
   return information;
 }
 
+// Front-end of Survey (User Input)
 $(document).ready(function() {
   $("#result").hide();
   $("form#survey").submit(function(event) {
