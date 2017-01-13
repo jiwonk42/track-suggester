@@ -11,7 +11,7 @@ var result = function(language) {
 }
 
 $(document).ready(function() {
-  //$("#result").hide();
+  $("#result").hide();
   $("form#survey").submit(function(event) {
 
     var name = $("input#name").val();
