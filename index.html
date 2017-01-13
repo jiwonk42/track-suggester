@@ -15,11 +15,13 @@
         Please answer all 5 questions.
       </p>
       <form id="survey">
+        <!-- Question 1: Full Name-->
         <div>
           <label for="name">Full Name: </label>
           <input id="name" type="text">
         </div>
 
+        <!-- Question 2: Programming Experience -->
         <div>
           <label for="experience">Do you have any programming experience?:</label>
           <div>
@@ -32,6 +34,7 @@
           </div>
         </div>
 
+        <!-- Question 3: Interest -->
         <div>
           <label for="interest">Are you interested in any of these classes offered at Epicodus?: </label>
           <ul>
@@ -53,8 +56,27 @@
           </div>
         </div>
 
+        <!-- Question 4: Programming Language Matching -->
         <div>
-          
+          <label for="language">Which one describes what you want to be doing in the future?: </label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="language" value="ruby" checked>
+              Creating an app that involves users creating accounts, entering information, and interacting with dynamic content.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="language" value="php">
+              Building content-heavy websites with relatively little user interaction.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="language" value="java">
+              Working for an enterprise-level company, as an Android developer, or in high-performance applications.
+            </label>
+          </div>
         </div>
 
       </form>
