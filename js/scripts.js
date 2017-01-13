@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $("form#survey").submit(function(event) {
-    //$("").hide();
+    $("#result").hide();
 
     var name = $("input#name").val();
     var experience = $("select#experience").val();
@@ -12,7 +12,8 @@ $(document).ready(function() {
     console.log(language);
 
     if(name) {
-      
+      $("#result").show();
+      $("#name-result").text(name);
     } else {
       alert("Please enter your name.");
     }
