@@ -33,11 +33,11 @@ button {
   padding: 10px 0px;
 }
 
+h2 {
+  padding-bottom: 15px;
+}
+
 .result {
   font-size: 20px;
   font-style: italic;
-}
-
-h2 {
-  padding-bottom: 15px;
 }
