@@ -1,9 +1,14 @@
 body {
-  background-color: #3b99fc;
+  background-color: #005ab5;
 }
 
 .container {
   background-color: white;
+  padding: 35px;
+}
+
+.section {
+  padding: 10px;
 }
 
 /*#result {

@@ -12,23 +12,25 @@
     <div class="container">
 
       <!-- Survey Introduction -->
-      <h1>Epicodus Course Track Suggester</h1>
-      <p>
-        Please answer all 5 questions.
-      </p>
+      <div class="section">
+        <h1>Epicodus Course Track Suggester</h1>
+      </div>
+      <div class="section">
+        <h4>Please answer all 5 questions.</h4>
+      </div>
 
       <!-- Beginning of Form -->
       <form id="survey">
         <!-- Question 1: Full Name-->
-        <div>
+        <div class="section">
           <label for="name">Full Name: </label>
           <input id="name" type="text">
         </div>
 
         <!-- Question 2: Programming Experience -->
-        <div>
+        <div class="section">
           <label for="experience">Do you have any programming experience?:</label>
-          <div>
+          <div class="section">
             <select id="experience">
               <option value="none">None</option>
               <option value="1-year">Less than 1 year</option>
@@ -39,13 +41,15 @@
         </div>
 
         <!-- Question 3: Interest -->
-        <div>
+        <div class="section">
           <label for="interest">Are you interested in any of these classes offered at Epicodus?: </label>
-          <ul>
-            <li>Ruby/Rails</li>
-            <li>PHP/Drupal</li>
-            <li>Java/Android</li>
-          </ul>
+          <div class="section">
+            <ul>
+              <li>Ruby/Rails</li>
+              <li>PHP/Drupal</li>
+              <li>Java/Android</li>
+            </ul>
+          </div>
           <div class="radio">
             <label>
               <input type="radio" name="interest" value="yes" checked>
@@ -61,7 +65,7 @@
         </div>
 
         <!-- Question 4: Programming Language Matching -->
-        <div>
+        <div class="section">
           <label for="language">Which one describes what you want to be doing in the future?: </label>
           <div class="radio">
             <label>
@@ -84,25 +88,26 @@
         </div>
 
         <!-- Question 5: Comments -->
-        <div>
-          <label for="comments">Do you have any suggestions for our program?: </label>
-          <div>
+        <div class="section">
+          <label for="comments">Do you have any suggestions for our program? (optional): </label>
+          <div class="section">
             <textarea name="comments" id="comments" cols="50" rows="10"></textarea>
           </div>
         </div>
 
         <!-- Submit Button -->
-        <button type="submit" name="button">Submit</button>
+        <div class="section">
+          <button type="submit" name="button">Submit</button>
+        </div>
       </form> <!-- End of Form -->
 
       <!-- Survey Result -->
-      <div id="result">
+      <div id="result" class="section">
         <p>Hi, <span id="name-result"></span>!</p>
         <p>Thank you for submitting Epicodus survey questionaire.</p>
         <p>Based on your answers (regardless of your programming experience, which is <span id="experience-result"></span>, and interest, which you said "<span id="interest-result"></span>", in programming languages offered at Epicodus) you would be interested in learning: <span id="language-result"></span>.</p>
         <p id="whichLanguage"></p>
         <p>If you do not have any suggestions for Epicodus, that is okay! But if you have entered in the comment box, we will take it seriously. Thank you for your feedback!</p>
-
       </div>
     </div>
   </body>
